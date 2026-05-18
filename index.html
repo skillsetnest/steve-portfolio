@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steve Ramos — SEO Specialist</title>
+  <meta name="description" content="Portfolio of Steve Ramos — SEO Specialist and indie web developer based building real products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-photo-wrap">
+        <div class="hero-photo">
+          <!--
+            Add your photo: place a file named "photo.jpg" in this folder.
+            The initials badge below will show automatically if the image is missing.
+          -->
+          <img
+            src="photo.jpg"
+            alt="Steve Ramos"
+            onload="this.classList.add('loaded')"
+            onerror="this.style.display='none';document.getElementById('initials').style.display='flex'"
+          />
+          <div id="initials" class="hero-initials" style="display:none">SR</div>
+        </div>
+      </div>
+
+      <div class="hero-text">
+        <p class="hero-label">Hey, I'm</p>
+        <h1>Steve<br />Ramos</h1>
+        <p class="hero-role">SEO Professional</p>
+        <p class="hero-bio">
+          I blend technical SEO expertise with hands-on development to build
+          products that rank and convert. From founding solo ventures to
+          launching high-traffic platforms, I ship things that work.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="https://www.linkedin.com/in/steverramos/" target="_blank" rel="noopener" class="btn btn-outline">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-inner">
+        <div class="section-head">
+          <span class="section-label">Work</span>
+          <h2>Projects</h2>
+          <p class="section-desc">A mix of solo ventures built from zero and professional platforms launched at scale.</p>
+        </div>
+
+        <div class="project-group">
+          <h3 class="group-title">
+            <span class="group-icon">⚡</span>
+            Personal Projects
+          </h3>
+          <div class="project-grid">
+
+            <article class="card" data-href="https://softwarepodium.com">
+              <div class="card-top">
+                <div class="card-icon card-icon--blue">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                </div>
+                <span class="card-tag">Solo Build</span>
+              </div>
+              <h4 class="card-name">Software Podium</h4>
+              <p class="card-desc">A software reviews platform where users discover, compare, and evaluate different types of software. My first personal project — designed, developed, and launched independently.</p>
+              <a href="https://softwarepodium.com" target="_blank" rel="noopener" class="card-link">
+                softwarepodium.com
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+              </a>
+            </article>
+
+            <article class="card" data-href="https://dotrendy.com">
+              <div class="card-top">
+                <div class="card-icon card-icon--purple">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+                </div>
+                <span class="card-tag">Solo Build</span>
+              </div>
+              <h4 class="card-name">Dotrendy</h4>
+              <p class="card-desc">A fully self-run dropshipping business. Handled everything from scratch — site design, development, product sourcing, and social media strategy. End-to-end ownership of a live e-commerce operation.</p>
+              <a href="https://dotrendy.com" target="_blank" rel="noopener" class="card-link">
+                dotrendy.com
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+              </a>
+            </article>
+
+            <article class="card" data-href="https://dryflip.com">
+              <div class="card-top">
+                <div class="card-icon card-icon--teal">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                </div>
+                <span class="card-tag">Chrome Extension</span>
+              </div>
+              <h4 class="card-name">Dryflip</h4>
+              <p class="card-desc">A Chrome extension that simulates crypto trades directly on live trading platforms — letting users test strategies risk-free with real market data. Built the browser extension, site, and brand end-to-end.</p>
+              <a href="https://dryflip.com" target="_blank" rel="noopener" class="card-link">
+                dryflip.com
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+              </a>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="project-group">
+          <h3 class="group-title">
+            <span class="group-icon">🏢</span>
+            Professional Projects
+          </h3>
+          <div class="project-grid project-grid--wide">
+
+            <article class="card card--featured" data-href="https://casinos.com">
+              <div class="card-top">
+                <div class="card-icon card-icon--gold">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                </div>
+                <span class="card-tag card-tag--pro">Currently Working</span>
+              </div>
+              <h4 class="card-name">Casinos.com</h4>
+              <p class="card-desc">Part of the founding team that built Casinos.com from the ground up. Played a key role in migrating content from multiple legacy sites, driving the technical SEO strategy during ideation and launch, and continuing to support the platform's growth to this day.</p>
+              <ul class="card-highlights">
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Founding team member — involved from day one
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Led large-scale content migration from multiple sites
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  Technical SEO support across launch and ideation phases
+                </li>
+              </ul>
+              <a href="https://casinos.com" target="_blank" rel="noopener" class="card-link">
+                casinos.com
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+              </a>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section">
+      <div class="section-inner">
+        <div class="section-head">
+          <span class="section-label">Expertise</span>
+          <h2>What I bring</h2>
+          <p class="section-desc">The disciplines and tools I use to build, grow, and optimise for the web.</p>
+        </div>
+
+        <div class="skills-columns">
+          <div class="skill-group">
+            <div class="skill-group-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            </div>
+            <h4>SEO</h4>
+            <ul>
+              <li>Technical SEO</li>
+              <li>On-Page Optimisation</li>
+              <li>Content Migration</li>
+              <li>Site Architecture</li>
+              <li>Launch Strategy</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h4>Development</h4>
+            <ul>
+              <li>Web Development</li>
+              <li>Chrome Extensions</li>
+              <li>Site Design</li>
+              <li>E-commerce Setup</li>
+              <li>Product Building</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <h4>Business</h4>
+            <ul>
+              <li>Dropshipping</li>
+              <li>Social Media Strategy</li>
+              <li>Solo Founding</li>
+              <li>Product Strategy</li>
+              <li>Growth</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <script>
+    // Sticky nav shadow
+    const nav = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    // Mobile menu
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+
+    // Animate cards on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.card, .skill-group, .hero-text, .hero-photo-wrap').forEach(el => {
+      observer.observe(el);
+    });
+
+    // Card click (whole card is clickable)
+    document.querySelectorAll('.card[data-href]').forEach(card => {
+      card.addEventListener('click', (e) => {
+        if (!e.target.closest('a')) {
+          window.open(card.dataset.href, '_blank', 'noopener');
+        }
+      });
+      card.style.cursor = 'pointer';
+    });
+  </script>
+
+</body>
+</html>
